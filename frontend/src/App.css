@@ -90,3 +90,29 @@ button {
 .content button.btn:hover {
   background: #a14f50;
 }
+
+ul.notification {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+ul.notification li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+ul.notification li button {
+  margin-right: 10px;
+  border: 0;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  background: transparent;
+}
+
+ul.notification li button.accept {
+  color: #86ec56;
+}
+ul.notification li button.reject {
+  color: #f05a5b;
+}
