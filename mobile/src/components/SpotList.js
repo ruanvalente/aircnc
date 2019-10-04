@@ -43,8 +43,7 @@ function SpotList ({ tech, navigation }) {
             <Image
               style={styles.thumbnail}
               source={{
-                uri:
-                  'http://192.168.0.106:3333/files/background.jpg-1570063744836.jpg'
+                uri: item.thumbnail_url
               }}
             />
             <Text style={styles.company}>{item.company}</Text>
